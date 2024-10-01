@@ -23,15 +23,15 @@
 .hero__title {
     color: var(--clr-slate800);
     text-transform: uppercase;
-    font-size: var(--size-4xl);
+    font-size: var(--size-lg);
     letter-spacing: -0.05em;
     line-height: 0.9;
 }
 
 .hero__description {
     max-width: 60ch;
-    font-size: var(--size-sm);
-    color: var(--clr-slate600);
+    font-size: var(--size-3xl);
+    color: var(--clr-slate400);
 }
 
 .hero__btn {
@@ -56,11 +56,11 @@
     }
     
     .hero__title {
-        font-size: var(--size-5xl);
+        font-size: var(--size-xl);
     }
     
     .hero__description {
-        font-size: var(--size-base);
+        font-size: var(--size-2xl);
     }
     
     .hero__btn {
@@ -91,11 +91,11 @@
     }
     
     .hero__title {
-        font-size: var(--size-7xl);
+        font-size: var(--size-3xl);
     }
     
     .hero__description {
-        font-size: var(--size-lg);
+        font-size: var(--size-5xl);
     }
     
     .hero__btn {
@@ -116,15 +116,16 @@
     }
     
     .hero__subtitle {
-        font-size: var(--size-4xl);
+        font-size: var(--size-xl);
+        margin: 0 8rem;
     }
     
     .hero__title {
-        font-size: var(--size-9xl);
+        font-size: var(--size-3xl);
     }
     
     .hero__description {
-        font-size: var(--size-xl);
+        font-size: var(--size-6xl);
     }
     
     .hero__btn {
